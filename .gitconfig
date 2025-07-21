@@ -1,0 +1,13 @@
+[core]
+	autocrlf = input
+[user]
+	name = Naoyuki Yoshinori
+	email = 1448309+naoyoshinori@users.noreply.github.com
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = false
+	keepBackup = false
+[safe]
+	directory = /workspace
