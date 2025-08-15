@@ -1,2 +1,6 @@
 .env
 .env.*
+config/gemini/*
+
+!config/gemini/GEMINI.md
+!config/gemini/settings.json
