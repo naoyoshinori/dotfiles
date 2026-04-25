@@ -1,10 +1,10 @@
 # Context
 * Name: Personal Dotfiles
-* Description: Centralized configuration files for consistent cross-platform environment setup.
+* Description: Cross-platform personal dotfiles.
 * Working Directory: /workspace/dotfiles
-* OS: Windows, Linux, macOS
-* Tools: Git, Gemini CLI, Batch, Bash
-* Rules: Use symlinks for setup, Windows setup requires admin
+* OS: Debian GNU/Linux 12 (bookworm)
+* Tools: Git, Batch, Bash
+* Rules: None
 * Ignore Files:
   - docker-compose.yaml
 * Files:
