@@ -1,21 +1,22 @@
 # dotfiles
 
-This repository contains personal dotfiles for various configurations.
+Personal configuration files for consistent environments.
 
-## Files
+## Repository Structure
 
-- `.gitconfig`: Your Git configuration, including user name, email, and aliases.
-- `setup.bat`: A Windows batch script to easily set up the dotfiles by creating symbolic links.
+- `config/git/.gitconfig`: Git settings (user, aliases, etc.)
+- `setup.bat`: Windows setup script (requires Administrator privileges)
+- `LICENSE`: MIT License
 
 ## Setup
 
-To set up these dotfiles on a Windows system, run the `setup.bat` script. **Please ensure you run it with administrator privileges.**
+### Windows
 
-```bash
+Run the setup script with Administrator privileges to create symbolic links:
+
+```batch
 setup.bat
 ```
-
-This script will create a symbolic link for `.gitconfig` in your user profile directory.
 
 ## License
 
