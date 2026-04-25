@@ -8,7 +8,9 @@
 * Ignore Files:
   - docker-compose.yaml
 * Files:
+  - .gitattributes: Git attributes configuration
+  - .gitignore: Git ignore configuration
   - config/git/.gitconfig: Git settings
-  - config/gemini/settings.json: Gemini CLI settings
+  - LICENSE: MIT License
+  - README.md: Project documentation
   - setup.bat: Windows symlink setup
-  - setup.sh: Linux/macOS symlink setup (Planned)
