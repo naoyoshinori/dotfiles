@@ -1,11 +1,11 @@
 services:
   gemini-cli:
-    image: naoyoshinori/gemini-cli:0.1-node
-    working_dir: /workspace
+    image: naoyoshinori/gemini-cli:0-node
+    working_dir: /workspace/dotfiles
     volumes:
       - ~/.gitconfig:/home/node/.gitconfig
       - ~/.gemini:/home/node/.gemini:cached
-      - .:/workspace:cached
+      - .:/workspace/dotfiles:cached
     env_file:
       - ~/.env.gemini
     command: ["sleep", "infinity"]
